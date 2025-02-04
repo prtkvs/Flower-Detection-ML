@@ -46,7 +46,7 @@ if uploaded_file is not None:
             for img_path in flower_images:
                 st.image(Image.open(img_path), width=150)
         else:
-            st.warning('related images not found!')
+            st.warning(f'related {predicted_label} images not found!')
     
     st.markdown(result_text) 
 
