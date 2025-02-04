@@ -4,6 +4,7 @@ from keras.models import load_model
 import streamlit as st
 import tensorflow as tf
 import numpy as np
+from PIL import Image
 
 st.header('Flower Classification CNN Model')
 flower_names = ['daisy', 'dandelion', 'rose', 'sunflower', 'tulip']
